@@ -1,0 +1,6 @@
+"exact_match"       考虑error message, 完全相同
+"swap_order"        不考虑error message, 交换参数位置
+"with_error_msg"    两个assertion, 是否至少一个有error message
+"true_or_false"     assertTrue/False, 参数取反
+"cannot_match"      不能匹配
+"correct_answer"    不考虑error message, 是正确答案
