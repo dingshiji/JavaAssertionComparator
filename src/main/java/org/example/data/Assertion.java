@@ -89,6 +89,16 @@ public class Assertion {
         }
     }
 
+    protected LinkedHashTreeMap<Object,Object> simpleOneParamCompare(Assertion other){
+        // todo: 简单的单参数的assertion比较
+        return null;
+    }
+
+    protected LinkedHashTreeMap<Object,Object> simpleTwoParamCompare(Assertion other){
+        // todo: 简单的双参数的assertion比较
+        return null;
+    }
+
     public LinkedHashTreeMap<Object, Object> compareWith(Assertion other) {
         return null;
     }
