@@ -1,9 +1,5 @@
 package org.example;
 
-import com.github.javaparser.StaticJavaParser;
-import com.github.javaparser.ast.CompilationUnit;
-import com.github.javaparser.ast.NodeList;
-import com.github.javaparser.ast.expr.Expression;
 import org.example.comparator.Comparator;
 
 /*

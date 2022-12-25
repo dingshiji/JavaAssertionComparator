@@ -9,7 +9,7 @@ public class Equals extends Assertion {
         super(assertion);
         this.expected_args = 2;
         parseAssertion();
- //       System.out.println("finish parsing");
+        //       System.out.println("finish parsing");
     }
 
     @Override
@@ -38,7 +38,7 @@ public class Equals extends Assertion {
         if (this.arguments.get(0).equals(other.arguments.get(1)) && this.arguments.get(1).equals(other.arguments.get(0))) {
             result.put("swap_order", true);
             return result;
-        }else if(this.arguments.get(1).equals(other.arguments.get(1)) && other.arguments.get(0).equals(this.arguments.get(0))){
+        } else if (this.arguments.get(1).equals(other.arguments.get(1)) && other.arguments.get(0).equals(this.arguments.get(0))) {
             result.put("correct_answer", true);
             return result;
         }
