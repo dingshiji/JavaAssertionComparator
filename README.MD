@@ -1,5 +1,7 @@
 ## 比较两个assertion
 
+运行test/java/TestTypicalCases.java
+
 处理了的常见情况
 1. 两个assertion字符串完全相同 exact_match
 2. 有一些额外的空白字符, 或者error message correct_answer

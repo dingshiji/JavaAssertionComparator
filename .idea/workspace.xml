@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8fa6973-44eb-4e2f-a948-7362c8797fe6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/comparator/tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestAssertEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestAssertFalse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestAssertTrue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestTypicalCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/comparator/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/comparator/Comparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/Assertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Equals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Equals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/False.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/False.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/NotEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/NotEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/NotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/NotNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Null.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Null.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Same.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Same.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/That.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/That.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/True.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/True.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +116,7 @@
       <workItem from="1668165936795" duration="11625000" />
       <workItem from="1668221883067" duration="7175000" />
       <workItem from="1670613188381" duration="25000" />
-      <workItem from="1671952480967" duration="5697000" />
+      <workItem from="1671952480967" duration="6001000" />
     </task>
     <servers />
   </component>
@@ -151,16 +133,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/data/Assertion.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
