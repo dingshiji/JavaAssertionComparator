@@ -1,0 +1,5 @@
+assertEquals((a+b+c), (d-e-f))
+
+====================
+assertEquals(err_msg, a, b)
+assertEquals(b, a)

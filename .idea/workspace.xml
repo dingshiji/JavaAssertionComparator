@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8fa6973-44eb-4e2f-a948-7362c8797fe6" name="Changes" comment="" />
+    <list default="true" id="e8fa6973-44eb-4e2f-a948-7362c8797fe6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/comparator/tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestAssertEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestAssertFalse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestAssertTrue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTypicalCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/comparator/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/comparator/Comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/Assertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Equals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Equals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/False.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/False.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/NotEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/NotEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/NotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/NotNull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Null.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Null.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Same.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/Same.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/That.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/That.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/impl/True.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/impl/True.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +55,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -44,7 +64,7 @@
       <recent name="org.example.data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Comparator">
+  <component name="RunManager" selected="Application.TestAssertTrue">
     <configuration name="Comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.comparator.Comparator" />
       <module name="JavaAssertionComparator" />
@@ -71,10 +91,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAssertFalse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestAssertFalse" />
+      <module name="JavaAssertionComparator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAssertTrue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestAssertTrue" />
+      <module name="JavaAssertionComparator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTypicalCases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestTypicalCases" />
+      <module name="JavaAssertionComparator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAssertTrue" />
+        <item itemvalue="Application.TestTypicalCases" />
         <item itemvalue="Application.Comparator" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestAssertFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -86,30 +130,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668165935381</updated>
-      <workItem from="1668165936795" duration="11035000" />
+      <workItem from="1668165936795" duration="11625000" />
+      <workItem from="1668221883067" duration="7175000" />
+      <workItem from="1670613188381" duration="25000" />
+      <workItem from="1671952480967" duration="5103000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/data/Assertion.java</url>
-          <line>76</line>
+          <line>77</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/comparator/Comparator.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/data/Assertion.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

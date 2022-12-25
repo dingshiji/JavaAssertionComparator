@@ -17,14 +17,15 @@ public class Equals extends Assertion {
 //        result.put("assertion", this.assertion);
 //        result.put("compare with", other.assertion);
         if (!(other instanceof Equals)) {
-            result.put("cannot_match", true);
+            result.put("incorrect_type", true);
             return result;
         }
 
         // exact match
 
-        if (this.arguments.equals(other.arguments)) {
+        if (this.assertion.equals(other.assertion)) {
             result.put("exact_match", true);
+            result.put("correct_answer", true);
         }
 
 

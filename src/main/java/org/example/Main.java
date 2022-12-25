@@ -4,6 +4,7 @@ import com.github.javaparser.StaticJavaParser;
 import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.NodeList;
 import com.github.javaparser.ast.expr.Expression;
+import org.example.comparator.Comparator;
 
 /*
     需要考虑的情况有
@@ -27,8 +28,9 @@ import com.github.javaparser.ast.expr.Expression;
     "with_error_msg"    两个assertion, 是否至少一个有error message
     "cannot_match"      不能匹配
     "true_or_false"     assertTrue/False, 参数取反是正确答案
+    "incorrect_type"    assertion type不能匹配
 
-    TODO: 有时参数会在括号中, 添加一个情况, 去除括号后正确匹配
+
 
 
 
@@ -36,18 +38,22 @@ import com.github.javaparser.ast.expr.Expression;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        String code = "assertEquals(a, !a)";
-
-        Expression exp = StaticJavaParser.parseExpression(code);
-        System.out.println(exp);
-        System.out.println(exp.asMethodCallExpr().getName().asString()); // get name
-
-        System.out.println(exp.asMethodCallExpr().getArguments().get(0).toString()); // get first argument
-
-        System.out.println((exp.asMethodCallExpr().getArguments().get(1)).getClass()); // get second argument
-
-        NodeList<Expression> arguments = exp.asMethodCallExpr().getArguments();
-        System.out.println(arguments.get(0).equals(arguments.get(1))); // get second argument
+        String assertion1 = "assertEquals(a,b);";
+        String assertion2 = "assertEquals(b,a);";
+        Comparator comparator = new Comparator();
+        comparator.compare2assertions(assertion1, assertion2);
+//        System.out.println("Hello world!");
+//        String code = "assertEquals(a, !a)";
+//
+//        Expression exp = StaticJavaParser.parseExpression(code);
+//        System.out.println(exp);
+//        System.out.println(exp.asMethodCallExpr().getName().asString()); // get name
+//
+//        System.out.println(exp.asMethodCallExpr().getArguments().get(0).toString()); // get first argument
+//
+//        System.out.println((exp.asMethodCallExpr().getArguments().get(1)).getClass()); // get second argument
+//
+//        NodeList<Expression> arguments = exp.asMethodCallExpr().getArguments();
+//        System.out.println(arguments.get(0).equals(arguments.get(1))); // get second argument
     }
 }

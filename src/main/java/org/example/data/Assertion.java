@@ -28,8 +28,9 @@ public class Assertion {
         result.put("swap_order", false);
         result.put("with_error_msg", false);
         result.put("true_or_false", false);
-        result.put("cannot_match", false);
+//        result.put("cannot_match", false);
         result.put("correct_answer", false);
+        result.put("incorrect_type", false);
     }
 
     public Assertion getAssertionObject() {
@@ -66,8 +67,8 @@ public class Assertion {
         }
     }
 
-    public static Expression remove_parentheses(Expression exp){
-        while(exp.isEnclosedExpr()){
+    public static Expression remove_parentheses(Expression exp) {
+        while (exp.isEnclosedExpr()) {
             exp = exp.asEnclosedExpr().getInner();
         }
         return exp;
@@ -89,13 +90,25 @@ public class Assertion {
         }
     }
 
-    protected LinkedHashTreeMap<Object,Object> simpleOneParamCompare(Assertion other){
+    protected LinkedHashTreeMap<Object, Object> simpleOneParamCompare(Assertion other) {
         // todo: 简单的单参数的assertion比较
-        return null;
+        if (this.arguments.get(0).toString().equals(other.arguments.get(0).toString())) {
+            result.put("exact_match", true);
+            result.put("correct_answer", true);
+        } else {
+            result.put("exact_match", false);
+        }
+        return result;
     }
 
-    protected LinkedHashTreeMap<Object,Object> simpleTwoParamCompare(Assertion other){
+    protected LinkedHashTreeMap<Object, Object> simpleTwoParamCompare(Assertion other) {
         // todo: 简单的双参数的assertion比较
+        if (this.arguments.get(0).toString().equals(other.arguments.get(0).toString()) && this.arguments.get(1).toString().equals(other.arguments.get(1).toString())) {
+            result.put("exact_match", true);
+            result.put("correct_answer", true);
+        } else {
+            result.put("exact_match", false);
+        }
         return null;
     }
 

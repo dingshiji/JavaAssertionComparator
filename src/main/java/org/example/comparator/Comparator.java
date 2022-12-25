@@ -20,26 +20,25 @@ public class Comparator {
 //        cannot_match = false;
 //    }
 
-    public void compare2assertions(String assertion1, String assertion2) {
-        try{
+    public LinkedHashTreeMap<Object, Object> compare2assertions(String assertion1, String assertion2) {
+        LinkedHashTreeMap<Object, Object> result = new LinkedHashTreeMap<>();
+        try {
             Assertion a1 = new Assertion(assertion1);
             Assertion parse_a1 = a1.getAssertionObject();
 
             Assertion a2 = new Assertion(assertion2);
             Assertion parse_a2 = a2.getAssertionObject();
+            result = parse_a1.compareWith(parse_a2);
 
-            LinkedHashTreeMap<Object, Object> result = parse_a1.compareWith(parse_a2);
-
-            System.out.println(result);
-
-        }catch (Exception e){
+//            System.out.println(result);
+        } catch (Exception e) {
             System.out.println(String.format("Error in assertion: %s, %s", assertion1, assertion2));
         }
 
+        return result;
     }
 
     public static void main(String[] args) {
-
 
 
 //        String code1 = "assertEquals(err, a, b);";
@@ -70,13 +69,13 @@ public class Comparator {
         codeList.add("assertEquals(a, !b);");
         codeList.add("assertEquals(a, b, err);");
 
-        for(int i=0;i<codeList.size();i++){
-            for(int j=i;j<codeList.size();j++){
+        for (int i = 0; i < codeList.size(); i++) {
+            for (int j = i; j < codeList.size(); j++) {
                 System.out.println("======== compare 2 assertions ========");
                 System.out.println(codeList.get(i));
                 System.out.println(codeList.get(j));
                 Comparator comparator = new Comparator();
-                comparator.compare2assertions(codeList.get(i), codeList.get(j));
+                System.out.println(comparator.compare2assertions(codeList.get(i), codeList.get(j)));
             }
         }
 
